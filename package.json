@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies" : {
+    "concurrently": "^4.1.0",
+    "dotenv": "^6.1.0",
+    "graphql": "^14.0.2",
+    "graphql-subscriptions": "^1.0.0",
+    "graphql-tools": "^4.0.3",
+    "graphql-yoga": "^1.16.7",
+    "merge-graphql-schemas": "^1.5.7",
+    "mongoose": "^5.3.13",
+    "nodemon": "^1.18.10",
+    "uuid": "^3.3.2"
+  }
+}
